@@ -1,0 +1,27 @@
+.authentication {
+  display: grid;
+  grid-template-rows: 1fr 1fr 7fr 7fr 1fr;
+
+  width: 300px;
+  position: absolute;
+  top: 0;
+  right: -280;
+  bottom: 0;
+  left: 0;
+
+  background: #bada55;
+
+  will-change: transform;
+  transform: translateX(-260px);
+}
+
+.authentication .bars .fa-bars {
+  float: right;
+  margin-right: 13px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.authentication.active {
+  transform: translateX(0px);
+}
